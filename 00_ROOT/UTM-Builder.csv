@@ -1,0 +1,6 @@
+Content-ID,Base-URL,utm_source,utm_medium,utm_campaign,utm_content,Full-URL,Notes
+CCF-001,https://example.com,youtube,video,CCF-001,thumbnail-a,https://example.com?utm_source=youtube&utm_medium=video&utm_campaign=CCF-001&utm_content=thumbnail-a,Example entry
+CCF-002,,,,,,,
+CCF-003,,,,,,,
+CCF-004,,,,,,,
+CCF-005,,,,,,,

@@ -1,0 +1,7 @@
+Content-ID,Title,Content-Type,Primary-Pillar,Publish-Date,Platform,Status,UTM-Campaign,Performance-Notes,Archive-Link
+# Column guide: Content-ID=unique key | Title=working title | Content-Type=format (Article, Video, etc.) | Primary-Pillar=strategic pillar | Publish-Date=YYYY-MM-DD | Platform=primary channel | Status=Planning|Draft|In-Review|Published|Archived | UTM-Campaign=tracking label | Performance-Notes=summary metrics or insights | Archive-Link=location of archived asset
+CCF-001,Framework Overview Article,Article,Core System,2025-01-15,Website,Published,launch_framework,"Strong engagement; CTR 8%. Consider SEO update Q2.",https://archive.example.com/ccf-001
+CCF-002,,,,,,,,,
+CCF-003,,,,,,,,,
+CCF-004,,,,,,,,,
+CCF-005,,,,,,,,,
