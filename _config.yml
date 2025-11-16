@@ -1,0 +1,84 @@
+# GitHub Pages Configuration for Content Creation Framework
+
+# Theme
+theme: jekyll-theme-cayman
+
+# Site settings
+title: Content Creation Framework
+description: A comprehensive framework for structured content creation, from strategy through analytics
+show_downloads: true
+google_analytics: 
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Navigation
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+# Relative links configuration
+relative_links:
+  enabled: true
+  collections: false
+
+# Optional front matter
+optional_front_matter:
+  remove_originals: false
+
+# Titles from headings
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: false
+
+# Include/Exclude files
+include:
+  - README.md
+  - docs
+  - 00_ROOT
+  - 01_Strategy_and_Planning
+  - 02_Content_Creation_and_Production
+  - 03_Optimization_and_Distribution
+  - 04_Analysis_and_Iteration
+  - 05_Distribution_and_Promotion
+  - 06_Analytics
+  - Templates
+  - GLOSSARY.md
+  - OVERVIEW.md
+
+exclude:
+  - scripts
+  - Assets
+  - .git
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - "*.sh"
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"

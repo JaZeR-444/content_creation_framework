@@ -1,0 +1,121 @@
+# Content Creation Framework .gitignore
+
+# Large media files (should be backed up separately)
+Assets/**/Raw-Captures/
+Assets/**/Exports/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aiff
+*.flac
+
+# Rendered/exported content
+**/renders/
+**/exports/
+**/final/
+
+# Image originals (keep templates only)
+*.psd
+*.ai
+*.sketch
+*.xcf
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+logs/
+
+# Node modules (if using any npm tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+env/
+
+# OS generated files
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+dist/
+build/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Personal/sensitive data
+.env
+.env.local
+credentials.csv
+secrets/
+private/
+*.key
+*.pem
+*.cert
+
+# Backup files
+*.gz
+*.zip
+*.tar
+*.rar
+backups/
+
+# Jekyll (GitHub Pages)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Keep directory structure with .keep files
+!.keep
+!**/.keep
+
+# But track important CSV and template files
+!00_ROOT/*.csv
+!Templates/*.csv
+!05_Distribution_and_Promotion/*.csv
+!06_Analytics/*.csv
